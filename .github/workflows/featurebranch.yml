@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@v4
     - uses: actions/setup-java@v4
       with:
-        java-version: '21'
+        java-version: '20'
         distribution: 'temurin'
     - run: mvn test --file ./RGBColour2/pom.xml
