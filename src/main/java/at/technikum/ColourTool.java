@@ -1,7 +1,7 @@
 package at.technikum;
 
-public class ColorTool {
-    private ComplementaryService complementaryService = new ComplementaryService();
+public class ColourTool {
+    private Complementary complementaryService = new Complementary();
     private RgbService rgbService = new RgbService();
 
     public void processInput(String color) {

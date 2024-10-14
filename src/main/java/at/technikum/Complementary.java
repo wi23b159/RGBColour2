@@ -1,6 +1,6 @@
 package at.technikum;
 
-public class ComplementaryService {
+public class Complementary {
     public String getComplementaryColor(String color) {
         switch (color.toLowerCase()) {
             case "red":
